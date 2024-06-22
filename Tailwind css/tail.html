@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wwise</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body class="font-poppins text-gray-700">
+    <!-- Navigation Bar -->
+
+    <header class="bg-white fixed top-0 left-0 w-full z-50 shadow-md">
+        <div class="container mx-auto flex items-center justify-between py-5 px-8">
+            <a href="Index.html" class="text-xl font-bold flex items-center space-x-2 text-gray-800">
+                <i class="bx bx-home text-2xl text-blue-600"></i>
+                <span>Wwise</span>
+            </a>
+            <input type="checkbox" id="menu" class="hidden">
+            <label for="menu" class="cursor-pointer text-2xl lg:hidden block">
+                <i class="bx bx-menu" id="menu-icon"></i>
+            </label>
+
+            <ul class="navbar hidden lg:flex space-x-8">
+                <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-600">About Us</a></li>
+                <li><a href="#services" class="hover:text-blue-600 ">Services</a></li>
+                <li><a href="#tips" class="hover:text-blue-600">Tips</a></li>
+            </ul>
+
+            <a href="#" class="btn bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Log In</a>
+        </div>
+    </header>
+
+    <div class="mx-36 items-center justify-center min-h-screen">
+    <!-- Home -->
+
+    <section class="home container mx-auto mt-24 bg-cover bg-center h-96 rounded-xl flex items-center " id="home" style="background-image: url('images/Premium Photo _ Young african american female entrepreneur freelancer working using a laptop in coworking space.jpeg');">
+        <div class="home-text pl-8 mx-36">
+            <h1 class="text-white text-4xl mb-4">Find Your Next<br>Perfect Way To<br>Work Wisely.</h1>
+            <a href="#" class="btn bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Sign up</a>
+        </div>
+    </section>
+
+    <!-- About Us -->
+
+    <section class="about container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-16" id="about">
+        <div class="about-img">
+            <img src="images/work.jpg" alt="" class="rounded-r-3xl rounded-l-md ">
+        </div>
+        <div class="about-text space-y-4  ">
+            <span class="text-blue-600 uppercase font-semibold">About Us</span>
+            <h2 class="text-2xl font-bold">Provide The Best<br>Schedules For You</h2>
+            <p>Welcome to our app, dedicated to enhancing the well-being and health of professionals like you. We understand that in today's fast-paced world, maintaining a healthy work-life balance can be challenging. Our app is designed to provide you with valuable tips and resources to prioritize your well-being, both physically and mentally.</p>
+            <p>With a focus on professionals, we offer a wide range of expert advice and practical strategies to help you navigate the demands of your career while taking care of yourself. From stress management techniques to effective time management strategies, our app is your go-to resource for maintaining a healthy lifestyle in the professional sphere.</p>
+            <p>Our team of experienced professionals and wellness experts have curated a wealth of information to address the unique challenges faced by professionals in various industries. Whether you're seeking advice on maintaining a nutritious diet, incorporating exercise into your busy schedule, or finding ways to unwind and relax after a long day, our app is here to support you on your journey to optimal well-being. Download our app today and embark on a path to a healthier, happier professional life.</p>
+            <div>
+            <a href="" class="btn bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 ">Learn more</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section class="services container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 my-16" id="services">
+        <div class="box bg-white shadow-md p-8 text-center rounded-2xl hover:bg-blue-600 hover:text-white transition duration-300">
+            <i class="bx bx-user text-3xl bg-blue-100 text-blue-600 p-2 rounded-full"></i>
+            <h3 class="text-xl font-semibold my-4">Achieve Your Goals</h3>
+            <p>Our app is your trusted companion on the path to achieving your goals. We believe that your well-being and health are essential foundations for success in your professional life. That's why our app is packed with practical tools, personalized recommendations, and motivational content to empower you in reaching your full potential.</p>
+        </div>
+
+        <div class="box bg-white shadow-md p-8 text-center rounded-2xl hover:bg-blue-600 hover:text-white transition duration-300">
+            <i class="bx bx-desktop text-3xl bg-blue-100 text-blue-600 p-2 rounded-full"></i>
+            <h3 class="text-xl font-semibold my-4">Start Your Membership</h3>
+            <p>Unlock the full potential of our app by becoming a valued member of our thriving community. As a member, you'll gain access to exclusive features and benefits designed to optimize your well-being and health journey. Enjoy personalized content tailored to your specific needs and preferences, ensuring that every recommendation and resource is relevant and impactful to you.</p>
+        </div>
+
+        <div class="box bg-white shadow-md p-8 text-center rounded-2xl hover:bg-blue-600 hover:text-white transition duration-300">
+            <i class="bx bx-bar-chart-alt text-3xl bg-blue-100 text-blue-600 p-2 rounded-full"></i>
+            <h3 class="text-xl font-semibold my-4">Enjoy Your New Schedules</h3>
+            <p>Flexibility and Adjustments; Life can be unpredictable, and our app understands that.<br> Easily make adjustments to your schedule by dragging and dropping tasks to different time slots or extending/shortening their durations.</p>
+        </div>
+    </section>
+
+    <!-- Tips -->
+
+    <section class="tips container mx-auto bg-gray-100 rounded-2xl p-12 my-16" id="tips">
+        <div class="headings text-center mb-8">
+            <h2 class="text-2xl font-bold">Tips To Follow</h2>
+            <p class="text-gray-600">Welcome to our app's expert tips section, where you'll find a wealth of valuable insights and practical advice to enhance your professional well-being and health.</p>
+        </div>
+        <div class="tips-container grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/shutterstock_93888712.0.0.webp" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Listen Music</h3>
+                        <p>Songs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/images.jpg" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Meditate</h3>
+                        <p>Yoga</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/gym.jpg" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Sports</h3>
+                        <p>Gym</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/food.jpg" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Nutrition</h3>
+                        <p>Balanced Diet</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/ty.png" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Work</h3>
+                        <p>Usefull Time</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box bg-white shadow-md rounded-xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                <img src="images/tr.jpg" alt="" class="w-full h-56 object-cover">
+                <div class="content p-6 flex justify-between items-center">
+                    <div class="text">
+                        <h3 class="text-xl font-semibold">Travel</h3>
+                        <p>Visiting Places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter container mx-auto text-center py-16" id="newsletter">
+        <h2 class="text-2xl font-bold mb-6">Subscribe to our Newsletter</h2>
+        <form class="bg-white shadow-md p-6 rounded-full flex justify-center items-center space-x-4">
+            <input type="email" id="email-box" placeholder="Enter your email" class="outline-none px-4 py-2 rounded-l-full w-80">
+            <button class="btn bg-blue-600 text-white px-6 py-2 rounded-r-full hover:bg-blue-700 float-right">Subscribe</button>
+        </form>
+    </section>
+
+</div>
+
+    <!-- Footer -->
+
+    <footer class="footer bg-blue-600 text-white py-12 rounded-tl-3xl">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="footer-box">
+                <h2 class="text-2xl font-bold mb-4">Wwise</h2>
+                <div class="social flex space-x-4">
+                    <a href="#" class="text-2xl hover:text-gray-300"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="text-2xl hover:text-gray-300"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="text-2xl hover:text-gray-300"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="text-2xl hover:text-gray-300"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3 class="text-xl mb-4">Links</h3>
+                <a href="#" class="block text-sm mb-2 hover:text-gray-300">Home</a>
+                <a href="#" class="block text-sm mb-2 hover:text-gray-300">About Us</a>
+                <a href="#" class="block text-sm mb-2 hover:text-gray-300">Services</a>
+                <a href="#" class="block text-sm mb-2 hover:text-gray-300">Tips</a>
+                <a href="#" class="block text-sm mb-2 hover:text-gray-300">Contact</a>
+            </div>
+
+            <div class="footer-box">
+                <h3 class="text-xl mb-4">Contact</h3>
+                <p class="text-sm mb-2">123 Street, City, Country</p>
+                <p class="text-sm mb-2">Email: info@example.com</p>
+                <p class="text-sm">Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright bg-blue-600 text-white py-4">
+        <p class="text-center text-sm">&#169; 2023 Wwise. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
